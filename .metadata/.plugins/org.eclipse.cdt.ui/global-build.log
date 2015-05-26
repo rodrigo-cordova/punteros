@@ -1,0 +1,15 @@
+22:31:07 **** Incremental Build of configuration Debug for project ejemplosPavos ****
+make all 
+Building file: ../punteros/ejem.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"punteros/ejem.d" -MT"punteros/ejem.d" -o "punteros/ejem.o" "../punteros/ejem.c"
+Finished building: ../punteros/ejem.c
+ 
+Building target: ejemplosPavos
+Invoking: GCC C Linker
+gcc  -o "ejemplosPavos"  ./punteros/ejem.o   
+Finished building target: ejemplosPavos
+ 
+22:31:16 **** Incremental Build of configuration Debug for project ejemplosPavos ****
+make all 
+make: No se hace nada para «all».
